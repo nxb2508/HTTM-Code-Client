@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #edecec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.form-input {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+.form-input input {
+    font-size: 20px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+button {
+    font-size: 20px;
+}

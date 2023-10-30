@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #edecec;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+table, thead, tbody, td, th, tr {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+.profile input {
+    font-size: 20px;
+    width: 50%;
+    border-width: 1px;
+    padding: 0;
+    margin: 0;
+}
+
+p, .hobby-header{
+    padding: 0;
+    margin: 0;
+    width: 30%;
+}
+
+.hobby {
+    width: 50%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+td, th {
+    width: calc(100%/3);
+    border: 1px solid #000;
+}
+
+.update {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.update button {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #acbeaf;
+    color: #393838;
+    border: 1px solid black;
+}
+
+.hobby {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hobby input {
+    height: 20px;
+    width: 20px;
+    border-width: 1px;
+    padding: 0;
+    margin: 0;
+    margin-right: 15px;
+}
+
+.ten-so-thich {
+    width: 40%;
+}
